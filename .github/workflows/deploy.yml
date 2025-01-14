@@ -38,7 +38,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "liunin-geminipro"
-          entrypoint: "server/astro.config.mjs"
+          entrypoint: "server/env.d.ts"
           root: "dist"
           
           
